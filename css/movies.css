@@ -1,0 +1,19 @@
+.movies-content {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  justify-items: center;
+}
+
+  .title {
+  font-size: 2rem;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  
+}
+main {
+  margin-top: 80px;
+  padding: 20px 40px;
+  display: grid;
+  row-gap: 80px;
+}

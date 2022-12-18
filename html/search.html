@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="stylesheet" href="../css/share.css" />
+    <link rel="stylesheet" href="../css/search.css" />
+  </head>
+  <body>
+    <header class="header">
+      <nav>
+        <ul class="header-izex text-lg">
+          <li class="header-izex__the mr-1">the</li>
+          <li class="header-izex__witcher mr-3">witcher</li>
+          <li class="header-izex__self px-1">Izex</li>
+        </ul>
+        <ul class="header-items">
+          <li id="date"></li>
+          <li id="theme">dark Mode</li>
+          <li><a href="./index.html">Home</a></li>
+          <li><a href="./movies.html">Movies</a></li>
+          <li><a href="./search.html">Search</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="main-wrapper">
+      <form id="search-form" class="form-wrapper">
+        <div id="search-form-error"></div>
+        <div class="input-wrapper">
+          <div><label>movie name</label></div>
+          <input name="name" type="text" />
+        </div>
+        <div class="input-wrapper">
+          <div><label>movie type</label></div>
+          <input name="type" type="text" />
+        </div>
+        <div class="input-wrapper">
+          <div>
+            <label>year</label>
+          </div>
+          <input name="year" type="text" />
+        </div>
+        <div class="input-wrapper">
+          <div>
+            <label>director</label>
+          </div>
+          <input name="director" type="text" />
+        </div>
+        <div class="input-wrapper">
+          <div>
+            <label>country</label>
+          </div>
+          <input name="country" type="text" />
+        </div>
+        <button class="form-btn">search</button>
+      </form>
+    </main>
+  
+  </body>
+  <script src="../js/timer.js"></script>
+  <script src="../js/theme.js"></script>
+  <script src="../js/validateSearchForm.js"></script>
+</html>
